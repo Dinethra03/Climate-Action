@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    align-items: center;
+    position: relative; 
+    background-image: url("images/bb6.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.splash-title{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+   
+    margin-bottom: 10px;
+
+}
+.splash-mission{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    
+    margin-bottom: 20px;
+}
+.splash-members li {
+    color: rgb(0, 0, 0);
+}
+
+.splash-content {
+    text-align: center;
+}
+
+.splash-logo {
+    width: 50px;
+    height: 50px;
+
+    background-size: cover;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #000000;
+    border-top: 5px solid #f5f7f9;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    color: #fff;
+    position: absolute; /* Add this line */
+    bottom: 20px; /* Adjust this value to center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-30%); /* Center horizontally */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

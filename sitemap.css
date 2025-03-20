@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+                *{
+                    font-family: 'Roboto', sans-serif;
+                    margin: 0; 
+                    padding: 0;
+                    box-sizing: border-box;
+                    outline: none;
+                    border: none;
+                    text-decoration: none;
+                    text-transform:capitalize;
+                    transition: .2s linear;
+                }
+
+                html{
+                    font-size: 100%;
+                    overflow-x: hidden;
+                    scroll-padding-top: 9rem;
+                    scroll-behavior: smooth;
+                }
+
+                html::-webkit-scrollbar{
+                    width: .8rem;
+                }
+
+                html::-webkit-scrollbar-track{
+                    background: transparent;
+                }
+
+                html::-webkit-scrollbar-thumb{
+                    background: #161313;
+                    border-radius: 5rem;
+                }
+
+                .header{
+                    background: linear-gradient(to bottom, rgba(17, 15, 15, 0.9), transparent );
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0.5rem 4rem;
+                    width: 100%;
+                    height: 20vh;
+                    background-size: cover;
+
+                    overflow: hidden;
+                }
+
+                .header .logo img{
+                    height: 220px;
+                    width: 220px;
+                }
+
+                .header .navbar a{
+                    position:relative;
+                    right: 67%;
+                    margin: 0 1rem;
+                    font-size: 1rem;
+                    color: #fff;
+                }
+
+                .header .navbar a:hover{
+                    color: #dbcab4;
+                    border-bottom: .1rem solid #d3ad7f;
+                    padding-bottom: .5rem;
+                }
+                .header .navbar .active{
+                    color: #d3ad7f;
+                    border-bottom: .1rem solid #d3ad7f;
+                    padding-bottom: .5rem;
+                }
+                
+                @media (max-width: 1300px) {
+                .header .navbar a {
+                    position:relative;
+                    right:30%;	
+                    margin: 0 1rem;
+                    font-size: 1rem;
+                    color: #fff;
+                }
+                }
+                
+                @media (max-width: 1125px) {
+                .header .navbar a {
+                    position:relative;
+                    right:10%;	
+                    margin: 0 1rem;
+                    font-size: 1rem;
+                    color: #fff;
+                } 
+                }  
+                
+                @media (max-width: 950px) {
+                .header .navbar a {
+                    position:relative;
+                    right:5%;	
+                    margin: 0 1rem;
+                    font-size: 1rem;
+                    color: #fff;
+                }
+                }  
+                
+                @media (max-width: 800px) {
+                .header .navbar a {
+                    position:relative;
+                    right:5%;	
+                    margin: 0 1rem;
+                    font-size: 0.75rem;
+                    color: #fff;
+                } 
+                }  
+                
+                @media (max-width: 650px) {
+                .header .navbar a {
+                    position:relative;
+                    right:5%;	
+                    margin: 0 1rem;
+                    font-size: 0.5rem;
+                    color: #fff
+                    }
+                }
+                body {
+                    background-size: cover;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(images/backgroungimage1.jpg);
+                    margin: 10px;
+                    padding: 10px;
+                    
+                }
+
+                h1{
+                    color: rgb(197, 173, 173);
+                    text-align: center ;
+                    font-size: 1000px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    margin-top: 80px;
+                    
+                }
+                .sitemap{
+                    margin: 190px;
+                    position: relative;
+                    text-align: center;
+                    
+
+
+                }
+
+                .sitemap .btnLink:hover{
+                    opacity: 0.7;
+                    
+
+                }
+                .sitemap.btnLink:active{
+                    color: rgb(184, 170, 170);
+                }
+
+
+                .socials li{
+                    margin:  10px;
+                }
+
+                .socials a{
+                    text-decoration: none;
+                    color: #fff;
+                    
+                }
+
+                .socials a i{
+                    font-size: 10px ;
+                    
+                }
+
+                .socials a:hover i{
+                    color: rgb(129, 230, 230)
+                }
+                
+                h1{
+                    color: rgb(63, 4, 131);
+                    text-align: center;
+                    font-size: 150px;
+                }
+                
+                
